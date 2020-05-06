@@ -2,7 +2,7 @@
   <div class="home">
     
   <div v-loading="loading" element-loading-text="加载中..." style="min-height: 35vw;" v-if="!error">
-    <div class="banner" >
+<!--     <div class="banner" >
       <div class="bg" ref="bg"
         @mouseover="bgOver($refs.bg)" @mousemove="bgMove($refs.bg,$event)" @mouseout="bgOut($refs.bg)">
         <transition name="fade">
@@ -18,18 +18,18 @@
           <li class="dot-active" v-for="(item, i) in banner" :class="{ 'dot':i!=mark }" :key="i" @click="change(i)"></li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <div v-for="(item,i) in home" :key="i">
 
-      <div class="activity-panel" v-if="item.type === 1">
+      <!-- <div class="activity-panel" v-if="item.type === 1">
         <ul class="box">
           <li class="content" v-for="(iitem,j) in item.panelContents" :key="j" @click="linkTo(iitem)">
             <img class="i" :src="iitem.picUrl">
             <a class="cover-link"></a>
           </li>
         </ul>
-      </div>
+      </div> -->
 
       <section class="w mt30 clearfix" v-if="item.type === 2">
         <y-shelf :title="item.name">

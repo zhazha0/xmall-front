@@ -85,3 +85,17 @@
     - [Machine-Learning](https://github.com/Exrick/Machine-Learning)
 
 ### [捐赠](http://xmall.exrick.cn)
+
+https://www.xingyun361.com/filepool/ads/2020/04/21/1587433103662.jpg  轮播 蓝
+https://www.xingyun361.com/filepool/ads/2020/04/30/1588234472114.jpg  轮播 红
+https://www.xingyun361.com/filepool/ads/2020/04/30/1588234570324.jpg  轮播 白
+
+
+
+https://www.xingyun361.com/filepool//cust_logo/2017/06/20/1497918007428.jpg  H型钢  12.0米 日钢
+https://www.xingyun361.com/filepool//cust_logo/2017/06/20/1497918878209.jpg  工字钢  6.0米
+
+https://www.xingyun361.com/filepool//cust_logo/2017/06/20/1497919033598.jpg  普碳开平板  2.0*1260*2500-1.8  2.5米  本钢
+
+
+https://www.xingyun361.com/filepool//cust_logo/2017/09/05/1504577417672.jpg  纵剪扁钢   6.0米  河北

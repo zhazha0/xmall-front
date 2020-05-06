@@ -29,10 +29,18 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/member/*': {
-        target: 'http://127.0.0.1:7777'  // 请求本地 需要xmall后台项目 默认127.0.0.1:7777 
+        target: 'http://xmall.exrick.cn/member/',  // 请求本地 需要xmall后台项目 默认127.0.0.1:7777 
+        changeOrigin: true,
+        pathRewrite: {
+            '^/member/': ''
+        }
       },
       '/goods/*': {
-        target: 'http://127.0.0.1:7777'  // 请求本地 需要xmall后台项目 默认127.0.0.1:7777
+        target: 'http://xmall.exrick.cn/goods/',  // 请求本地 需要xmall后台项目 默认127.0.0.1:7777
+        changeOrigin: true,
+        pathRewrite: {
+            '^/goods/': ''
+        }
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"

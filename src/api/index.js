@@ -29,7 +29,8 @@ export const thanksList = (params) => {
 }
 // 首页接口
 export const productHome = (params) => {
-  return http.fetchGet('/goods/home', params)
+  // return http.fetchGet('/goods/home', params)
+  return Promise.resolve(require('../mock/home.json'))
 }
 // 首页接口
 export const navList = (params) => {
