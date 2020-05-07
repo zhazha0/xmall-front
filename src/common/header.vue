@@ -154,7 +154,7 @@
   import { loginOut, navList } from '/api/index'
   import { setStore, getStore, removeStore } from '/utils/storage'
   // import store from '../store/'
-  import 'element-ui/lib/theme-default/index.css'
+  import 'element-ui/lib/theme-chalk/index.css'
   export default{
     data () {
       return {
